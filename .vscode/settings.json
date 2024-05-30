@@ -1,0 +1,5 @@
+{
+	"mypy.runUsingActiveInterpreter": true,
+	"sqltools.useNodeRuntime": true,
+	"editor.defaultFormatter": "matangover.mypy"
+}

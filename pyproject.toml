@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "bumpguide-backend"
+version = "0.1.0"
+description = ""
+authors = ["Tes"]
+license = "MIT"
+readme = "README.md"
+
+packages = [
+    { include = "main.py" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+python-jose = "^3.3.0"
+SQLAlchemy = "^2.0.30"
+sqlmodel = "^0.0.18"
+firebase-admin = "^6.5.0"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.10.0"
+ruff = "^0.4.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
